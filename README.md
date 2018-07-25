@@ -1,24 +1,23 @@
-# README
+<h1>MOOCademy de THP</h1>
+<h4>Réalisation by Edouard, Léa</h4>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Etape 1:   
 
-Things you may want to cover:
+    > git clone https://github.com/SatanPetitCoeur/03_The_Hacking_Pinterest
 
-* Ruby version
+Etape 2: 
 
-* System dependencies
+    > cd 03_The_Hacking_Pinterest
+    
+Etape 3:
 
-* Configuration
+    > rake db:migrate 
+     
+Etape 4:
 
-* Database creation
+    > rake db:seed 
+   
+Etape 5:  
 
-* Database initialization
+    > rails c
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
